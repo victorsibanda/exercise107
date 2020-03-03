@@ -19,6 +19,15 @@
 
 # starter code
 menu = ['falafel', 'HuMMus', 'coUScous', 'Bacalhau a Bras']
+
+
+print ('Menu Items:')
+print(menu[0].title())
+print(menu[1].title())
+print(menu[2].title())
+print(menu[3].title())
+
+
 food_order = []
 
 food_order.append(input('What would you like to order first?'))
