@@ -30,13 +30,13 @@ print(menu[3].title())
 
 food_order = []
 
-food_order.append(input('What would you like to order first?'))
+food_order.append(input('What would you like to order first?').capitalize())
 print(food_order)
 
-food_order.append(input('What would you like to order second?'))
+food_order.append(input('What would you like to order second?').capitalize())
 print(food_order)
 
-food_order.append(input('What would you like to order third?'))
+food_order.append(input('What would you like to order third?').capitalize())
 print(food_order)
 
 
