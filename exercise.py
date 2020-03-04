@@ -21,24 +21,29 @@
 menu = ['falafel', 'HuMMus', 'coUScous', 'Bacalhau a Bras']
 
 
-print ('Menu Items:')
-print(menu[0].title())
-print(menu[1].title())
-print(menu[2].title())
-print(menu[3].title())
+#print ('Menu Items:')
+#print(menu[0].title())
+#print(menu[1].title())
+#print(menu[2].title())
+#print(menu[3].title())
 
+print ('Menu Items:')
+new_menu = [menu[0].title(),menu[1].title(),menu[2].title(),menu[3].title()]
+
+print(f'here is your formatted menu{new_menu}')
 
 food_order = []
 
-food_order.append(input('What would you like to order first?').capitalize())
-print(food_order)
+food_order.append(input('What would you like to order first?').strip().capitalize())
+#print(food_order)
 
-food_order.append(input('What would you like to order second?').capitalize())
-print(food_order)
+food_order.append(input('What would you like to order second?').strip().capitalize())
+#print(food_order)
 
-food_order.append(input('What would you like to order third?').capitalize())
-print(food_order)
+food_order.append(input('What would you like to order third?').strip().capitalize())
+#print(food_order)
 
+print(f'You would like {food_order}')
 
 
 # I need to print each item from the list
